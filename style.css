@@ -1,0 +1,51 @@
+/* id(rarely used because can only be used with one) */
+/* COLOR STYLE */
+#first {color:#a1a0a0;}
+#second {color:#af8b48;}
+#third {color:#7865b3;}
+#fourth {color:#10e089;}
+/* FONT STYLE */
+#fantasy {font-family: fantasy;}
+#monospace {font-family: monospace;}
+#cursive {font-family: cursive;}
+
+
+/* class(better because different classes can be combined together) */
+
+/* COLOR STYLE */
+.red {color: red;}
+.orange {color: orange;}
+.blueviolet {color: blueviolet;}
+.green {color: green;}
+.grey {color: grey;}
+.light-green {color: rgba(50, 228, 100, 0.755);}
+
+/* COLORS target only the numbers of the list */
+li.redM::marker {
+color: red;
+font-weight: bold;
+}        
+li.orangeM::marker {
+color: orange;
+font-weight: bold;
+}         
+li.bluevioletM::marker {
+color: blueviolet;
+font-weight: bold;
+}
+li.greenM::marker {
+color: green;
+font-weight: bold;
+}  
+
+/* FONT STYLE */
+.fantasy {font-family: fantasy;}
+.monospace {font-family: monospace;}
+.cursive {font-family: cursive;}
+
+
+body {font-family: sans-serif;}
+
+.center {text-align: center;}
+
+.bold {font-weight: bold;}
